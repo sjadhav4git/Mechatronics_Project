@@ -86,18 +86,41 @@ Assembly instructions:
 <br>
 <br>
 <br>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-How it works:
-Working principle: 
+## How color detection works:
+
+* Color starts with light. Light is a form of electromagnetic radiation, and it travels in waves. Different colors correspond to different wavelengths of light. When light interacts with an object, some wavelengths are absorbed by the object, and others are reflected.
 <p align="center">
     <img src="https://www.color-meanings.com/wp-content/uploads/absorption-reflection-colors-objects-1024x858.png" alt="Image 1" height ="200">
 </p>
-Calibration of color sensor:
-* Sensor calibrates starting of each cycle:
-* 
-*   <p align="center">
-    <img src="images/20231209_083137_AdobeExpress.gif" alt="Image 1" height ="200">
+
+
+* In this project, RGB LED diod is used as a light source [datasheet](https://cdn.sparkfun.com/datasheets/Components/LED/YSL-R596AR3G4B5C-C10.pdf?_gl=1*135yzks*_ga*MjA4NTU0MjE3NC4xNjk4MDI2ODM3*_ga_T369JS7J9N*MTcwMjEzMzIzMi41LjAuMTcwMjEzMzIzMi42MC4wLjA.)
+  <p align="center">
+    <img src="images/RGB_LED.png" alt="Image 1" height ="200">
+    <img src="https://www.thegeekpub.com/wp-content/uploads/2021/11/Arduino-RGB-LED-0003-RGB-LED-switching-colors-animated.gif" alt="Image 1" height ="200">
   </p>
+---
+  
+
+* A photoresistor, composed of semiconductor materials like cadmium sulfide, changes its electrical resistance based on the intensity of incident light. When exposed to light, it generates electron-hole pairs, altering its conductivity. The resistance is inversely proportional to light intensity, decreasing as light increases. Photoresistors are used in circuits, often arranged in voltage dividers, to detect or control light levels. For detail information click [here](https://www.circuitstoday.com/wp-content/uploads/2017/10/Photoresistor.jpg).
+
+  <p align="center">
+    <img src="https://www.circuitstoday.com/wp-content/uploads/2017/10/Photoresistor-Working-Priciple-e1507308614699.png" alt="Image 1" height ="200">
+    <img src="https://www.circuitstoday.com/wp-content/uploads/2017/10/Photoresistor.jpg" alt="Image 1" height ="200">
+    <img src="https://adam-meyer.com/arduino/images/2012/11/arduino-LDR-photoresistor1.png" alt="Image 1" height ="200">
+    
+    
+  </p>
+  
+---
+<br>
+* RGB LED Flashes Each color for 30ms. At same time Arduino reads Analog voltage on pin A0(where sensor connected)
+<p align="center">
+  <img src="images/20231209_083137_AdobeExpress.gif" alt="Image 1" height ="200">
+</p>
+
 
 
 
@@ -109,6 +132,12 @@ ___
 <p align="center">
     <img src="images/circuit.png" alt="Image 1" height ="400">
   </p>
+
+Calibration of color sensor:
+* Sensor calibrates starting of each cycle:
+*   <p align="center">
+    <img src="images/20231209_083137_AdobeExpress.gif" alt="Image 1" height ="200">
+    </p>
 
 
 
