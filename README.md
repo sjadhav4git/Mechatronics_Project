@@ -45,6 +45,7 @@ Assembly Instructions:<br>
 * fix the base with servo assembly on top of it using 4 M3 screws and bolts.
 * Assemble an Arm with servo 1 as shown in picture. Assemble such that each servo can operate in limits shown in image.
 <p align="center">
+  <img src="images/17021268612185707055149107339741.jpg" alt="Image 1" height ="300">
   <img src="images/top_view.png" alt="Image 1" height ="300">
   <img src="images/front_view.png" alt="Image 1" height ="300">
 </p>
@@ -69,8 +70,11 @@ Assembly instructions:
 * Solder 10k resitor and 220 Ohm resistors on Arduino proto shield as shown in schematic
 * 
   <p align="center">
+    <img src="images/17021272272572036238491611179348.jpg" alt="Image 1" height ="150">
     <img src="images/Sensor.jpg" alt="Image 1" height ="150">
     <img src="images/sensor2.jpg" alt="Image 1" height ="150">
+    
+    
   </p>
 
   
