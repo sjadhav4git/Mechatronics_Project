@@ -60,8 +60,8 @@ Components:<br>
 
 
   <p align="center">
-    <img src="images/top_view.png" alt="Image 1" height ="300">
-    <img src="images/front_view.png" alt="Image 1" height ="300">
+    <img src="images/Sensor.jpg" alt="Image 1" height ="150">
+    <img src="images/sensor2.jpg" alt="Image 1" height ="150">
   </p>
 
 
