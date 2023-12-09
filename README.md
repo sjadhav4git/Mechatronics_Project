@@ -121,7 +121,7 @@ ___
       <img src="https://www.color-meanings.com/wp-content/uploads/absorption-reflection-colors-objects-1024x858.png" alt="Image 1" height ="200">
   </p>
   
-  * In this project, RGB LED diod is used as a light source [datasheet](https://cdn.sparkfun.com/datasheets/Components/LED/YSL-R596AR3G4B5C-C10.pdf_gl=1*135yzks*_ga*MjA4NTU0MjE3NC4xNjk4MDI2ODM3*_ga_T369JS7J9N*MTcwMjEzMzIzMi41LjAuMTcwMjEzMzIzMi42MC4wLjA.)
+  * In this project, RGB LED diod is used as a light source [datasheet](https://cdn.sparkfun.com/datasheets/Components/LED/YSL-R596AR3G4B5C-C10.pdf?_gl=1*ssd8j3*_ga*MjA4NTU0MjE3NC4xNjk4MDI2ODM3*_ga_T369JS7J9N*MTcwMjE0ODgzNi42LjAuMTcwMjE0ODgzNi42MC4wLjA.)
  
     <p align="center">
       <img src="images/RGB_LED.png" alt="Image 1" height ="200">
