@@ -53,9 +53,10 @@ Set each servo to operate between limit shown in image:
 
 Components:<br>
   1. RGB Led * 1
-  2. Resistor 10 kOhm * 1
-  3. Resistor 220 Ohm * 3
-  4. [prototype board](https://protosupplies.com/wp-content/uploads/2019/02/PCB-2x8-cm-Universal-PCB-Board.jpg)
+  2. [5528 LDR Mini Photoresistor](https://cdn11.bigcommerce.com/s-yo2n39m6g3/images/stencil/1280x1280/products/704/6303/d9c8d789-7c9b-42a2-af7b-5ad5c29b4def__71085.1632206657.JPG?c=2?imbypass=on) * 1
+  3. Resistor 10 kOhm * 1
+  4. Resistor 220 Ohm * 3
+  5. [prototype board](https://protosupplies.com/wp-content/uploads/2019/02/PCB-2x8-cm-Universal-PCB-Board.jpg)
 
 
   <p align="center">
@@ -70,7 +71,7 @@ Components:<br>
 ___
 ## Circuit Diagram:
 <p align="center">
-    <img src="images/circuit_diagram.png" alt="Image 1" height ="400">
+    <img src="images/circuit.png" alt="Image 1" height ="400">
   </p>
 
 
