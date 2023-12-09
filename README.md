@@ -31,6 +31,8 @@ Components:<br>
   3. Arduino Uno * 1
   4. Arduino Proto Shield * 1
   5. Robotic Arm : [download the model here](https://a360.co/3R4SsM0)
+  6. M4 Screws and nuts * 4
+  7. M3 screws and nuts * 6
 
      
 <p align="center">
@@ -38,7 +40,9 @@ Components:<br>
   <img src="images/exploded_view.png" alt="Image 1" height ="300">
 </p>
 
-Assembly Instructions: 
+Assembly Instructions:<br>
+* Attach Servo MG-996R with M4 screws
+* attach 
 Set each servo to operate between limit shown in image:
 <p align="center">
   <img src="images/top_view.png" alt="Image 1" height ="300">
