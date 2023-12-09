@@ -35,6 +35,10 @@ Components:<br>
   8. male header pins
   9. Robotic Arm : [download the model here](https://a360.co/3R4SsM0)
 
+     
+<p align="center">
+  <img src="images/Arm_assembly.png" alt="Image 1" width ="550">
+</p>
   
     
 
