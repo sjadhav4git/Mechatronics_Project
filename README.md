@@ -42,14 +42,14 @@ Components:<br>
 
 Assembly Instructions:<br>
 * Attach Servo MG-996R with M4 screws
-* attach 
-Set each servo to operate between limit shown in image:
+* fix the base with servo assembly on top of it using 4 M3 screws and bolts.
+* Assemble an Arm with servo 1 as shown in picture. Assemble such that each servo can operate in limits shown in image.
 <p align="center">
   <img src="images/top_view.png" alt="Image 1" height ="300">
   <img src="images/front_view.png" alt="Image 1" height ="300">
 </p>
+
   
-    
 
 <!-- ====================================================================================================== -->
 
@@ -61,6 +61,7 @@ Components:<br>
   3. Resistor 10 kOhm * 1
   4. Resistor 220 Ohm * 3
   5. [prototype board](https://protosupplies.com/wp-content/uploads/2019/02/PCB-2x8-cm-Universal-PCB-Board.jpg)
+  6. [Rubber Finger](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71JWB0M2+lL._AC_SX679_.jpg)
 
 
   <p align="center">
