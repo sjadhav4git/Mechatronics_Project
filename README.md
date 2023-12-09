@@ -63,12 +63,20 @@ Components:<br>
   5. [prototype board](https://protosupplies.com/wp-content/uploads/2019/02/PCB-2x8-cm-Universal-PCB-Board.jpg)
   6. [Rubber Finger](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71JWB0M2+lL._AC_SX679_.jpg)
 
-
+Assembly instructions:
+* Solder RGB LED and LDR on proto board as shown in fig.
+* Extend wires towards Arduino proto shield
+* Solder 10k resitor and 220 Ohm resistors on Arduino proto shield as shown in schematic
+* 
   <p align="center">
     <img src="images/Sensor.jpg" alt="Image 1" height ="150">
     <img src="images/sensor2.jpg" alt="Image 1" height ="150">
   </p>
+
+  
 <br>
+
+
 
 
 &nbsp;
@@ -85,8 +93,11 @@ ___
 
 
 
+## 3.Create an algorithm to solve the puzzle and determine the necessary movements for the robotic arm.
 
-
+* [Download the code in src folder of this repo.](src/main.cpp)
+* Paste it in your project fodlder as main.cpp
+* upload it on arduino Uno.
 
 <br>
 <br>
