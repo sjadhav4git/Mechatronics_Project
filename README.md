@@ -1,21 +1,21 @@
 # Rubik's Race puzzle solving by 3 DOF Arm 
 
+
 ## What is Rubiks Race Puzzle and How to play? (Actual Puzzle)
+
+click [here](https://www.hasbro.com/common/documents/dad2884a1c4311ddbd0b0800200c9a66/D597E72E5056900B10F8D850BDEA6516.pdf) for details
+
 <p align="center">
   <img src="images/Rubiks_Race_puzzle.png" alt="Image 1" width ="550">
 </p>
 
 
-click [here](https://www.hasbro.com/common/documents/dad2884a1c4311ddbd0b0800200c9a66/D597E72E5056900B10F8D850BDEA6516.pdf) for details
-
-&nbsp;
 ___
 # Tasks:
 1. Build and 3D print a servo-controlled robotic arm, and design an embedded system for its control.
 2. Design and construct a color sensor using electronic components.
 3. Create an algorithm to solve the puzzle and determine the necessary movements for the robotic arm.
-
-&nbsp;
+---
 <br>
 
 
@@ -23,6 +23,7 @@ ___
 <!-- ====================================================================================================== -->
 
 ## 1. Build and 3D print a servo-controlled robotic arm, and design an embedded system for its control.
+
 ### Components:
   1. Servo MG-996R  * 1
   2. Servo SG90 9G Micro Servo  * 2
@@ -32,10 +33,12 @@ ___
   6. M4 Screws and nuts * 4
   7. M3 screws and nuts * 6
 
+
+
      
 <p align="center">
-  <img src="images/Arm_assembly.png" alt="Image 1" height ="300">
-  <img src="images/exploded_view.png" alt="Image 1" height ="300">
+  <img src="images/Arm_assembly.png" alt="Image 1" height ="250">
+  <img src="images/exploded_view.png" alt="Image 1" height ="250">
 </p>
 
 ### Assembly Instructions:
@@ -48,11 +51,9 @@ ___
   <img src="images/front_view.png" alt="Image 1" height ="300">
 </p>
 
-  
+---
 
 <!-- ====================================================================================================== -->
-<br>
-<br>
 
 
 
@@ -68,7 +69,8 @@ ___
 
 ## 2. Design and construct a color sensor using electronic components.
 
-###Components:
+### Components:
+
   1. RGB Led * 1
   2. [5528 LDR Mini Photoresistor](https://cdn11.bigcommerce.com/s-yo2n39m6g3/images/stencil/1280x1280/products/704/6303/d9c8d789-7c9b-42a2-af7b-5ad5c29b4def__71085.1632206657.JPG?c=2?imbypass=on) * 1
   3. Resistor 10 kOhm * 1
@@ -80,7 +82,7 @@ ___
 * [Solder RGB LED and LDR on proto board as shown in fig.](images/17021272272572036238491611179348.jpg)
 * [Extend wires towards Arduino proto shield and solder female connector at end](images/20231209_082113.jpg)
 * Solder 10k resitor and 220 Ohm resistors on Arduino proto shield as shown in schematic
-* Connect :
+* connections :
   + servo -> Arm 1 -> Arduino D9
   + servo -> Arm 2 -> Arduino D10
   + servo -> Arm 2 -> Arduino D11
@@ -97,11 +99,12 @@ ___
     
   </p>
 <br>
-<br>
-<br>
+
+---
+
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-## How color detection works:
+## _How color detection works:_
 
 * Color starts with light. Light is a form of electromagnetic radiation, and it travels in waves. Different colors correspond to different wavelengths of light. When light interacts with an object, some wavelengths are absorbed by the object, and others are reflected.
 <p align="center">
