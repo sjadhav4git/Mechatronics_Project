@@ -158,6 +158,9 @@ ___
 
 1. It starts with calibration of sensor.
   * for calibration first two rows of puzzle should be arrange like shown in image 
+<p align="center">
+    <img src="images/circuit.png" alt="Image 1" height ="400">
+</p>
 
 
 Calibration of color sensor:
