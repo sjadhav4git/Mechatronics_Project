@@ -1,5 +1,4 @@
-# Mechatronics_Project
-Rubiks Race Puzzle solving by 3 DOF Arm
+# Rubik's Race puzzle solving by 3 DOF Arm 
 
 ## What is Rubiks Race Puzzle and How to play? (Actual Puzzle)
 <p align="center">
@@ -24,7 +23,7 @@ ___
 <!-- ====================================================================================================== -->
 
 ## 1. Build and 3D print a servo-controlled robotic arm, and design an embedded system for its control.
-Components:<br>
+### Components:
   1. Servo MG-996R  * 1
   2. Servo SG90 9G Micro Servo  * 2
   3. Arduino Uno * 1
@@ -39,7 +38,7 @@ Components:<br>
   <img src="images/exploded_view.png" alt="Image 1" height ="300">
 </p>
 
-Assembly Instructions:<br>
+### Assembly Instructions:
 * Attach Servo MG-996R with M4 screws
 * fix the base with servo assembly on top of it using 4 M3 screws and bolts.
 * Assemble an Arm with servo 1 as shown in picture. Assemble such that each servo can operate in limits shown in image.
@@ -55,9 +54,21 @@ Assembly Instructions:<br>
 <br>
 <br>
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## 2. Design and construct a color sensor using electronic components.
 
-Components:<br>
+###Components:
   1. RGB Led * 1
   2. [5528 LDR Mini Photoresistor](https://cdn11.bigcommerce.com/s-yo2n39m6g3/images/stencil/1280x1280/products/704/6303/d9c8d789-7c9b-42a2-af7b-5ad5c29b4def__71085.1632206657.JPG?c=2?imbypass=on) * 1
   3. Resistor 10 kOhm * 1
@@ -65,7 +76,7 @@ Components:<br>
   5. [prototype board](https://protosupplies.com/wp-content/uploads/2019/02/PCB-2x8-cm-Universal-PCB-Board.jpg) * 1
   6. [Rubber Finger](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71JWB0M2+lL._AC_SX679_.jpg) * 1
 
-Assembly instructions:
+### Assembly instructions:
 * [Solder RGB LED and LDR on proto board as shown in fig.](images/17021272272572036238491611179348.jpg)
 * [Extend wires towards Arduino proto shield and solder female connector at end](images/20231209_082113.jpg)
 * Solder 10k resitor and 220 Ohm resistors on Arduino proto shield as shown in schematic
@@ -135,10 +146,19 @@ Assembly instructions:
 &nbsp;
 <br>
 ___
-## Circuit Diagram:
+
+## 3. Create an algorithm to solve the puzzle and determine the necessary movements for the robotic arm.
+### Final Assembly:
+* Circuit Diagram
 <p align="center">
     <img src="images/circuit.png" alt="Image 1" height ="400">
-  </p>
+</p>
+
+### Working flow of code.
+
+1. It starts with calibration of sensor.
+  * for calibration first two rows of puzzle should be arrange like shown in image 
+
 
 Calibration of color sensor:
 * Sensor calibrates starting of each cycle:
@@ -152,11 +172,42 @@ Calibration of color sensor:
 
 
 
+
+
+
+
+
+
+
+
+
 ## 3.Create an algorithm to solve the puzzle and determine the necessary movements for the robotic arm.
 
 * [Download the code in src folder of this repo.](src/main.cpp)
 * Paste it in your project fodlder as main.cpp
 * upload it on arduino Uno.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br>
 <br>
