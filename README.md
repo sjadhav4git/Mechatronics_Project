@@ -37,7 +37,15 @@ Components:<br>
 
      
 <p align="center">
-  <img src="images/Arm_assembly.png" alt="Image 1" width ="550">
+  <img src="images/Arm_assembly.png" alt="Image 1" height ="300">
+  <img src="images/exploded_view.png" alt="Image 1" height ="300">
+</p>
+
+Assembly Instructions: 
+Set each servo to operate between limit shown in image:
+<p align="center">
+  <img src="images/top_view.png" alt="Image 1" height ="300">
+  <img src="images/front_view.png" alt="Image 1" height ="300">
 </p>
   
     
