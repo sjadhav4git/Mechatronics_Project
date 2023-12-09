@@ -3,9 +3,8 @@ Rubiks Race solving by 3 DOF Arm
 
 https://www.hasbro.com/common/documents/dad2884a1c4311ddbd0b0800200c9a66/D597E72E5056900B10F8D850BDEA6516.pdf
 
----
 &nbsp;
-
+___
 # Tasks:
 1. Build and 3D print a servo-controlled robotic arm, and design an embedded system for its control.
 2. Design and construct a color sensor using electronic components.
@@ -62,6 +61,16 @@ Components:<br>
   <p align="center">
     <img src="images/Sensor.jpg" alt="Image 1" height ="150">
     <img src="images/sensor2.jpg" alt="Image 1" height ="150">
+  </p>
+<br>
+
+
+&nbsp;
+<br>
+___
+## Circuit Diagram:
+<p align="center">
+    <img src="images/circuit_diagram.png" alt="Image 1" height ="400">
   </p>
 
 
