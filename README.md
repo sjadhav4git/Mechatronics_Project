@@ -37,8 +37,8 @@ ___
 
      
 <p align="center">
-  <img src="images/Arm_assembly.png" alt="Image 1" height ="250">
-  <img src="images/exploded_view.png" alt="Image 1" height ="250">
+  <img src="images/Arm_assembly.png" alt="Image 1" height ="200">
+  <img src="images/exploded_view.png" alt="Image 1" height ="200">
 </p>
 
 ### Assembly Instructions:
@@ -46,9 +46,9 @@ ___
 * fix the base with servo assembly on top of it using 4 M3 screws and bolts.
 * Assemble an Arm with servo 1 as shown in picture. Assemble such that each servo can operate in limits shown in image.
 <p align="center">
-  <img src="images/17021268612185707055149107339741.jpg" alt="Image 1" height ="300">
-  <img src="images/top_view.png" alt="Image 1" height ="300">
-  <img src="images/front_view.png" alt="Image 1" height ="300">
+  <img src="images/17021268612185707055149107339741.jpg" alt="Image 1" height ="200">
+  <img src="images/top_view.png" alt="Image 1" height ="200">
+  <img src="images/front_view.png" alt="Image 1" height ="200">
 </p>
 
 ---
@@ -102,32 +102,44 @@ ___
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## _How color detection works:_
 
 * Color starts with light. Light is a form of electromagnetic radiation, and it travels in waves. Different colors correspond to different wavelengths of light. When light interacts with an object, some wavelengths are absorbed by the object, and others are reflected.
-<p align="center">
-    <img src="https://www.color-meanings.com/wp-content/uploads/absorption-reflection-colors-objects-1024x858.png" alt="Image 1" height ="200">
-</p>
-
-
-* In this project, RGB LED diod is used as a light source [datasheet](https://cdn.sparkfun.com/datasheets/Components/LED/YSL-R596AR3G4B5C-C10.pdf?_gl=1*135yzks*_ga*MjA4NTU0MjE3NC4xNjk4MDI2ODM3*_ga_T369JS7J9N*MTcwMjEzMzIzMi41LjAuMTcwMjEzMzIzMi42MC4wLjA.)
- 
   <p align="center">
-    <img src="images/RGB_LED.png" alt="Image 1" height ="200">
-    <img src="https://www.thegeekpub.com/wp-content/uploads/2021/11/Arduino-RGB-LED-0003-RGB-LED-switching-colors-animated.gif" alt="Image 1" height ="200">
+      <img src="https://www.color-meanings.com/wp-content/uploads/absorption-reflection-colors-objects-1024x858.png" alt="Image 1" height ="200">
   </p>
----
   
+  * In this project, RGB LED diod is used as a light source [datasheet](https://cdn.sparkfun.com/datasheets/Components/LED/YSL-R596AR3G4B5C-C10.pdf_gl=1*135yzks*_ga*MjA4NTU0MjE3NC4xNjk4MDI2ODM3*_ga_T369JS7J9N*MTcwMjEzMzIzMi41LjAuMTcwMjEzMzIzMi42MC4wLjA.)
+ 
+    <p align="center">
+      <img src="images/RGB_LED.png" alt="Image 1" height ="200">
+      <img src="https://www.thegeekpub.com/wp-content/uploads/2021/11/Arduino-RGB-LED-0003-RGB-LED-switching-colors-animated.gif" alt="Image 1" height ="200">
+    </p>
 
 * A photoresistor, composed of semiconductor materials like cadmium sulfide, changes its electrical resistance based on the intensity of incident light. When exposed to light, it generates electron-hole pairs, altering its conductivity. The resistance is inversely proportional to light intensity, decreasing as light increases. Photoresistors are used in circuits, often arranged in voltage dividers, to detect or control light levels. For detail information click [here](https://www.circuitstoday.com/wp-content/uploads/2017/10/Photoresistor.jpg).
-* click [here](https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf) for datasheet
-  <p align="center">
-    <img src="https://www.circuitstoday.com/wp-content/uploads/2017/10/Photoresistor-Working-Priciple-e1507308614699.png" alt="Image 1" height ="200">
-    <img src="https://www.circuitstoday.com/wp-content/uploads/2017/10/Photoresistor.jpg" alt="Image 1" height ="200">
-  </p>
----
+  * click [here](https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf) for datasheet
+    <p align="center">
+      <img src="https://www.circuitstoday.com/wp-content/uploads/2017/10/Photoresistor-Working-Priciple-e1507308614699.png" alt="Image 1" height ="200">
+      <img src="https://www.circuitstoday.com/wp-content/uploads/2017/10/Photoresistor.jpg" alt="Image 1" height ="200">
+    </p>
+
 
 
 *  RGB LED Flashes Each color for 30ms. At same time Arduino reads Analog voltage on pin A0(where sensor connected)
@@ -157,20 +169,40 @@ ___
     <img src="images/circuit.png" alt="Image 1" height ="400">
 </p>
 
-### Working flow of code.
+### _Working flow of code._
+1. **It starts with calibration of sensor.**
+   
+    * Rotic arm go to home position.
+    * It waits for 15 seconds. You need to arrange first two rows of puzzle like shown in below image (sequence of color must be exact)
+    * After 15 seconds it start calibration
+      <details>
+      <summary>Calibration process in details</summary>
+      
+      1.  It is the process of setting the referece RGB values for reffered color.
+      2.  RGB LED Flashes Each color for 30ms. At same time Arduino reads Analog voltage on pin A0(where sensor connected)
+      3.  The voltage reading is saved in arduino and used as a reference template for that color.
+      4.  Step 2 and 3 repeted for each different color in puzzle.
+       
+      </details>
+      <p align="center">
+        <img src="images/calibration_pattern.jpeg" alt="Image 1" height ="200">
+      </p>
 
-1. It starts with calibration of sensor.
-  * for calibration first two rows of puzzle should be arrange like shown in image 
-<p align="center">
-    <img src="images/circuit.png" alt="Image 1" height ="400">
-</p>
-
-
-Calibration of color sensor:
-* Sensor calibrates starting of each cycle:
-*   <p align="center">
-    <img src="images/20231209_083137_AdobeExpress.gif" alt="Image 1" height ="200">
+2. **Reading Target Pattern:**
+   * After calibration Arm goes to home position.
+   * It again wait for 15 seconds.
+   * You need to shuffle a puzzle randomly. Below image is one example.
+     <p align="center">
+      <img src="images/target_pattern.jpeg" alt="Image 1" height ="200">
     </p>
+    * After 15 seconds color sensor goes to each location at center and Read the color of each pallet and save it as a target pattern.
+    * After Reading target pattern it again goes to home position.
+
+  3. **Raading Puzzle pattern.**
+     * It agian wait for 15 seconds and give time to user to shuffle pattern as much as possible. (Below is the image example)
+     <p align="center">
+        <img src="images/puzzle_pattern.jpeg" alt="Image 1" height ="200">
+      </p>
 
 
 
@@ -186,6 +218,17 @@ Calibration of color sensor:
 
 
 
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## 3.Create an algorithm to solve the puzzle and determine the necessary movements for the robotic arm.
 
