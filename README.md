@@ -31,11 +31,7 @@ Components:<br>
   2. Servo SG90 9G Micro Servo  * 2
   3. Arduino Uno * 1
   4. Arduino Proto Shield * 1
-  5. RGB Led * 1
-  6. Resistor 10 kOhm * 1
-  7. Resistor 220 Ohm * 3
-  8. male header pins
-  9. Robotic Arm : [download the model here](https://a360.co/3R4SsM0)
+  5. Robotic Arm : [download the model here](https://a360.co/3R4SsM0)
 
      
 <p align="center">
@@ -57,11 +53,16 @@ Set each servo to operate between limit shown in image:
 ## 2. Design and construct a color sensor using electronic components.
 
 Components:<br>
-
   1. RGB Led * 1
   2. Resistor 10 kOhm * 1
   3. Resistor 220 Ohm * 3
   4. [prototype board](https://protosupplies.com/wp-content/uploads/2019/02/PCB-2x8-cm-Universal-PCB-Board.jpg)
+
+
+  <p align="center">
+    <img src="images/top_view.png" alt="Image 1" height ="300">
+    <img src="images/front_view.png" alt="Image 1" height ="300">
+  </p>
 
 
 
