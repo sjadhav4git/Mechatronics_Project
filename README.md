@@ -22,8 +22,10 @@ https://www.hasbro.com/common/documents/dad2884a1c4311ddbd0b0800200c9a66/D597E72
 <br>
 <br>
 
-## 1. Build and 3D print a servo-controlled robotic arm, and design an embedded system for its control.
 
+<!-- ====================================================================================================== -->
+
+## 1. Build and 3D print a servo-controlled robotic arm, and design an embedded system for its control.
 Components:<br>
   1. Servo MG-996R  * 1
   2. Servo SG90 9G Micro Servo  * 2
@@ -50,9 +52,16 @@ Set each servo to operate between limit shown in image:
   
     
 
+<!-- ====================================================================================================== -->
 
+## 2. Design and construct a color sensor using electronic components.
 
+Components:<br>
 
+  1. RGB Led * 1
+  2. Resistor 10 kOhm * 1
+  3. Resistor 220 Ohm * 3
+  4. [prototype board](https://protosupplies.com/wp-content/uploads/2019/02/PCB-2x8-cm-Universal-PCB-Board.jpg)
 
 
 
