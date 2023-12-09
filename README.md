@@ -65,20 +65,39 @@ Components:<br>
   6. [Rubber Finger](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71JWB0M2+lL._AC_SX679_.jpg)
 
 Assembly instructions:
-* Solder RGB LED and LDR on proto board as shown in fig.
-* Extend wires towards Arduino proto shield
+* [Solder RGB LED and LDR on proto board as shown in fig.](images/17021272272572036238491611179348.jpg)
+* [Extend wires towards Arduino proto shield and solder female connector at end](images/20231209_082113.jpg)
 * Solder 10k resitor and 220 Ohm resistors on Arduino proto shield as shown in schematic
-* 
+* Connect :
+  + servo -> Arm 1 -> Arduino D9
+  + servo -> Arm 2 -> Arduino D10
+  + servo -> Arm 2 -> Arduino D11
+  + [Sensor connector on proto shield as shown in picture](images/20231209_083949.jpg)
+              
   <p align="center">
     <img src="images/17021272272572036238491611179348.jpg" alt="Image 1" height ="150">
     <img src="images/Sensor.jpg" alt="Image 1" height ="150">
     <img src="images/sensor2.jpg" alt="Image 1" height ="150">
-    
+    <img src="images/20231209_082113.jpg" alt="Image 1" height ="150">
+    <img src="images/20231209_081609.jpg" alt="Image 1" height ="150">
+    <img src="images/20231209_083949.jpg" alt="Image 1" height ="150">
     
   </p>
-
-  
 <br>
+<br>
+<br>
+
+How it works:
+Working principle: 
+<p align="center">
+    <img src="https://www.color-meanings.com/wp-content/uploads/absorption-reflection-colors-objects-1024x858.png" alt="Image 1" height ="200">
+</p>
+Calibration of color sensor:
+* Sensor calibrates starting of each cycle:
+* 
+*   <p align="center">
+    <img src="images/20231209_083137_AdobeExpress.gif" alt="Image 1" height ="200">
+  </p>
 
 
 
