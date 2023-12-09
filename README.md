@@ -1,4 +1,7 @@
 # Rubik's Race puzzle solving by 3 DOF Arm 
+<p align="center">
+  <img src="images/assembled_robot2.jpeg" alt="Image 1" width ="550">
+</p>
 
 
 ## What is Rubiks Race Puzzle and How to play? (Actual Puzzle)
@@ -32,6 +35,7 @@ ___
   5. Robotic Arm : [download the model here](https://a360.co/3R4SsM0)
   6. M4 Screws and nuts * 4
   7. M3 screws and nuts * 6
+  8. 5v Power Supply
 
 
 
@@ -108,15 +112,6 @@ ___
 
 
 
-
-
-
-
-
-
-
-
-
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 ## _How color detection works:_
@@ -162,12 +157,36 @@ ___
 <br>
 ___
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 3. Create an algorithm to solve the puzzle and determine the necessary movements for the robotic arm.
 ### Final Assembly:
 * Circuit Diagram
 <p align="center">
     <img src="images/circuit.png" alt="Image 1" height ="400">
 </p>
+
+* [Download the code in src folder of this repo.](src/main.cpp)
+* Paste it in your project folder as main.cpp
+* upload it on arduino Uno.
+
+---
 
 ### _Working flow of code._
 1. **It starts with calibration of sensor.**
@@ -204,93 +223,6 @@ ___
         <img src="images/puzzle_pattern.jpeg" alt="Image 1" height ="200">
       </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-## 3.Create an algorithm to solve the puzzle and determine the necessary movements for the robotic arm.
-
-* [Download the code in src folder of this repo.](src/main.cpp)
-* Paste it in your project fodlder as main.cpp
-* upload it on arduino Uno.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
----
----
----
-# Section 1
-
-This is the content of section 1.
-
-<!-- Add a horizontal rule for visual separation -->
----
-<!-- Or, add an empty line for additional space -->
-&nbsp;
-<!-- Or, use HTML <br> for line break -->
-<br>
-
-# Section 2
-
-This is the content of section 2.
-
-
-This is a line without indentation.
-
-    This is indented using spaces.
-
-&emsp;This is indented using an em space in HTML.
-
-
+  4. After Gathering all needed information it start solving the puzzle. It uses A* algorithm to find the shortest path.
+  5. As soon as it finds best path it start moving the tiles.
+  6. After solving the puzzle it agian go to home position.
